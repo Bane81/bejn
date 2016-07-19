@@ -1,0 +1,703 @@
+* {margin: 0 auto ;}
+
+
+@import url(https://fonts.googleapis.com/css?family=Oregano&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+header {
+	
+	background-image: url(trava.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+    
+}
+.intro p {
+    color: white;
+
+}
+
+.intro a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.logo {
+	width: 17%;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 80px;
+    float: left;
+	   }
+
+.responsive {
+	width: 100%;
+    position: relative;
+    max-width: 100%;
+    
+
+}
+.clear {
+	clear: both;
+}
+.intro {
+	width: 30%;
+	position: absolute;left: 45%;top: 250px;
+	display: inline-block;
+}
+#coach {
+	width: 80%;
+	margin-left: -200px;
+	margin-bottom: -220px;
+	margin-top: 40px;
+	float: left;
+	
+}
+
+.container {
+	width: 75%;
+	align-content: center;
+}
+
+
+
+nav {
+	/*position: absolute;
+	left: 35%;*/
+	float: right;
+
+	
+
+}
+
+nav li {
+	display: inline-block;
+	float: left;
+	font-size: 1em;
+	padding-top: 40px;
+	padding-left: 20px;
+	list-style: none;
+	margin: 5px;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: times;
+	text-transform: uppercase;
+
+}
+#search {
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 6px;
+	
+}
+#cart {
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 6px;
+}
+
+
+#burger {
+	float: right;
+	color: white;
+	display: none;
+	font-size: 3em;
+}
+
+h1 {
+	color: white;
+
+}
+
+.divpos {
+	position: absolute; left: 1000px; top: 300px;
+}
+
+.button {
+	font-size: 20px;
+	border:2px solid white ;
+	border-radius: 35px;
+	padding: 15px;
+	margin:20px;
+	color: white;
+	text-decoration: none;
+}
+.h1 {
+	font-size: 50px;
+	color: white;
+	font-family: 'Oregano', cursive; font-weight: 400;
+	
+
+}
+.p {
+	font-size: 20px;
+	color: white;
+}
+div a:hover {
+	color: green;
+	background-color: white;
+}
+#cart {
+	border: 1px solid white;
+	border-radius: 50px;
+	position: absolute; top: 20px; right: 100px;
+}
+#cart1 {
+	border: 1px solid white;
+	border-radius: 50px;
+	position: absolute; top: 20px; right: 140px;
+	padding: 5px;
+
+}
+/*esli bez nogu*/
+.hidden {
+	overflow: hidden;
+	height: 640px;
+	width: 100%;
+	position: absolute; top: 60px;
+}
+/*#section1 {
+	display: inline;
+}
+.div1 {
+	height: 250px;
+	width: 250px;
+	border: 1px solid #e6e6e6;
+	margin: 20px;
+	display: inline-block;
+
+}*/
+
+/*---------NOVO RESENJE-------------*/
+
+.whylist li {
+	display: inline-block;
+}
+.main ul li {
+	min-width: 22%;
+	margin: 10px;
+	border: 2px solid #e6e6e6;
+	text-align: center;
+	padding: 20px 0px;
+
+}
+
+#rebbel {
+	font-size: 300%;
+}
+#spinner {
+  font-size: 300%;
+}
+#heart {
+   font-size: 300%;
+}
+#hour {
+    font-size: 300%;
+}
+
+
+
+.main h2 {
+	font-family: 'Oregano', cursive; font-weight: 400;
+	position: relative; bottom: 150px;
+	color: #8c8c8c;
+}
+
+
+
+
+.hoverme:hover .secondary {
+    display: block;
+
+}
+
+
+.hoverme:hover .trotacka {
+    display: none;
+
+}
+
+.trotacka {
+    font-size: 1.9em;
+    font-family: "Open Sans", sans-serif;
+    color: #444444 ;
+
+}
+
+.hoverme:hover {
+    box-shadow: 0 0 10px #bfbfbf ;
+    
+}
+
+ 
+.primary {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+
+}
+
+
+.secondary {
+    display: none;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+    font-size: 0.8em;
+}
+
+
+
+
+
+.fa-rebel, .fa-spinner, .fa-heartbeat, .fa-hourglass {
+    color: #2acd35 ;
+    font-size: 4em;
+    padding: 20px 0px 40px 0px;
+
+}
+
+#krug {
+   width: 130px;
+   height: 130px;
+   background-color: white;
+   border:1px solid white ;
+   border-radius: 70px;
+   position: relative; bottom: 70px;
+   border-bottom: 2px solid #00e600;
+}
+
+#sivikrug {
+   width: 130px;
+   height: 130px;
+   background-color:  #d9d9d9;
+   border:1px solid  #d9d9d9;;
+   border-radius: 70px;
+   position: relative; bottom: 70px;
+   border-bottom: 2px solid #00e600;
+ 
+
+}
+
+#krugnews {
+   width: 130px;
+   height: 130px;
+   background-color: white;
+   border:1px solid white ;
+   border-radius: 70px;
+   position: relative; bottom: 90px;
+   border-bottom: 2px solid #00e600;
+}
+
+
+.section2 h1 {
+	position: relative;bottom: 160px;
+}
+
+#news {
+	position: relative;bottom: 170px;
+}
+#krugsucc {
+    width: 130px;
+   height: 130px;
+   background-color: white;
+   border:1px solid white ;
+   border-radius: 70px;
+   position: relative; bottom: 70px;
+   border-bottom: 2px solid #00e600;
+}
+#succ {
+	position: relative;bottom: 150px;
+}
+
+/*------------END-------------*/
+
+div p {
+	font-size: 20px;
+}
+#a {
+	text-decoration: none;
+	color: green;
+}
+.div2 {
+	height: 250px;
+	width: 350px;
+	border: 1px solid #cccccc;
+	margin: 20px;
+	display: inline-block;
+}
+h1 {
+	color: #666666;
+	font-family: 'Oregano', cursive; font-weight: 400;
+	font-size: 30px;
+}
+.section2 {
+	background-color: #d9d9d9;
+
+}
+.section3 {
+	background-image: url("green.jpg");
+	background-attachment: fixed;
+	min-height: 400px;
+	background-size: cover;
+}
+section a:hover {
+	   color: green;
+	   background-color: white;
+}
+.article {
+	display: inline-block;
+	margin: 20px;
+
+}
+#section4 {
+	background-image: url("tea.jpg");
+	min-height: 400px;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+#girl1 {
+	width: 260px;
+	height: 263px;
+	border: 1px solid #d9d9d9;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: absolute;bottom: 50px;
+	
+}
+.pgirl {
+	color: green;
+}
+#girl {
+	width: 260px;
+	height: 263px;
+	border: 1px solid #d9d9d9;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: absolute;left: 190px; top: 150px;
+
+
+}
+
+#sectiongirl {
+	position: relative;
+	min-height: 400px;
+
+
+}
+
+#articlegirl {
+	
+	float: left;
+
+}
+
+#articlegirl1 {
+	max-width: 50%;
+	height: auto;
+	float: right;
+
+}
+
+h3 {
+	color: green;
+}
+
+#h1white {
+	color: white;
+
+}
+#divgrass {
+	background-image: url(trava1.jpg);
+	min-height: 375px;
+   
+    clear: both;
+}
+
+
+
+
+                        /*------forma-------*/
+
+input {
+    width: 27%;
+    padding: 10px;
+    margin: 20px;
+    height: 25px;
+    border: 2px solid #e6e6e6;
+
+}
+
+textarea {
+	clear: both;
+	width: 94%;
+	min-height: 200px;
+	border: 2px solid #e6e6e6;
+
+
+	
+
+}
+input[type=submit] {
+       max-width: 15%;
+       border: 1px solid #00e600;
+       border-radius: 20px;
+       color: white;
+       background-color: #00e600;
+       padding: 15px;
+       margin: 10px;
+       font-size: 15px;
+       
+       cursor: pointer;
+       padding-bottom: 30px;
+       font-weight: bold;
+       text-align: center;
+
+
+}
+input[type=submit]:hover {
+    background-color: #333333;
+    border: none;
+}
+
+
+
+
+
+.form {
+
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 100%;
+	position: relative;top: -150px;
+	background-color: white;
+	text-align: center;
+                               /*kraj forme*/
+
+}
+
+ .button2 {
+ 	color: white;
+ 	background-color: green;
+ 	border: 1px solid green;
+ 	padding: 15px;
+ 	border-radius: 15px;
+ 	font-size: 20px;
+ 	position: relative; top: 40px; left: 550px;
+ }
+ /*sekcija iznad footera*/
+
+ #secfooter {
+ 	
+ 	background-color: #333333;
+ 	
+ 	
+ }
+ #divdonji {
+ 	width: 100%;
+ 	max-height: 260px;
+ 	background-color: #404040;
+ 	border: 1px solid #404040;
+ 	border-radius: 5px;
+ 	display: inline-block;
+
+ 	
+ 
+
+ }
+ #aside {
+ 	display: inline-block;
+ 	max-width: 60%;
+ 	position: relative; bottom: 50px;
+ 	
+ 	
+ }
+
+ .tritacke {
+      font-size: 200%;
+      color: grey;
+
+ }
+.tritacke a:hover {
+	display: none;
+}
+
+.manjaslova {
+	font-size: 80%;
+	display: none;
+}
+
+
+
+ #h4 {
+ 	color: #00cc00;
+ 	font-size: 40px;
+ 	font-family: 'Oregano', cursive; font-weight: 400;
+ 	 }
+ 
+.fsec {
+	max-width: 24%;
+	display: inline-block;
+	padding-top: 40px;
+    margin:10px;
+	margin-bottom: 40px;
+	vertical-align: text-top;
+}
+
+
+#iznadf {
+   display: inline-block;
+
+
+}
+
+#ul {
+	display: inline-block;
+	column-count: 2;
+}
+
+ul li img {
+	max-width: 75px;
+}
+
+section li {
+	display: inline;
+}
+
+}
+h4	{
+	color: #00cc00;
+
+
+}
+
+.fsec h3 {
+  font-family: 'Oregano', cursive; font-weight: 400;
+  color: #00cc00;
+
+}
+
+article li {
+	padding-top: 10px;
+	font-size: 20px;
+}
+footer {
+	min-height: 60px;
+	background-color: #404040;
+	
+}
+footer p {
+	color: #b3b3b3;
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+ #footerp {
+ 	float: left;
+ }
+ footer a:hover {
+ 	background-color: #333333;
+ 	color: white;
+
+ }
+ .pgrey {
+ 	color: #b3b3b3;
+ }  
+ .social i {
+ 	font-size: 150%;
+ }
+ .fsec ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+   /*--------------Media---------------*/
+ 
+ @media screen and (max-width: 600px) {
+
+header {
+
+	
+}
+
+.intro {
+  display: none;
+}
+
+
+nav { 
+	display: none;
+}
+
+nav select {
+    display: inline-block;
+}
+
+#burger {
+	display: block;
+	
+}
+.fsec  {
+	display: block;
+	min-width: 380px;
+}
+#girl {
+	position: absolute; left: 0 ;top: 110px;
+}
+#divdonji {
+	width: 100%;
+	max-height: 450px;
+}
+.container {
+	width: 100%;
+}
+
+input[type=submit] {
+	min-width: 130px;
+}
+
+input {
+	width: 80%;
+}
+#articlegirl1 {
+     margin-top: 150px;
+     min-width: 380px;
+}
+#aside {
+	margin-top: 20px;
+}
+#footerp {
+   width: 90%;
+   text-align: center;
+}
+#f2 {
+	clear: both;
+	text-align: center;
+}
+.h1  {
+	text-align: center;
+}
+.p {
+   text-align: center;	
+}
+
+.article {
+	width: 100%;
+}
+.main ul li {
+	width: 40%;
+}
+
+}
